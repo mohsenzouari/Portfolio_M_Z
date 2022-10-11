@@ -22,7 +22,7 @@ export default function ProjectDetails() {
   return (
     <div className="projectsdetails" id="projectsdetails">
       <Helmet>
-        <title>Projects - Mouna Tebourski</title>
+        <title>Projects - </title>
         <meta name="description" content="Page details des projets"/>
       </Helmet>
 

@@ -9,7 +9,7 @@ import ProjectDetails from "./components/projects/ProjectDetails";
 
 function App() {
 	const About = lazy(() => import("./components/about/About"));
-	const Portfolio = lazy(() => import("./components/portfolio/Portfolio"));
+	// const Portfolio = lazy(() => import("./components/portfolio/Portfolio"));
 	const Projects = lazy(() => import("./components/projects/Projects"));
 	const Contact = lazy(() => import("./components/contact/Contact"));
 
@@ -26,20 +26,20 @@ function App() {
 										path="about"
 										element={<About className="children" />}
 									/>
-									<Route
+									{/* <Route
 										path="portfolio"
 										element={<Portfolio className="children" />}
-									/>
+									/> */}
 									<Route path="projects"	element={<Projects className="children" />}/>
                     
-                  <Route 
-                    path="/projects/:projectId" 
-                    element={<ProjectDetails />} 
-                  />
-                   <Route 
-                    path="/projects/:*" 
-                    element={<ProjectDetails />} 
-                  />
+									<Route 
+										path="/projects/:projectId" 
+										element={<ProjectDetails />} 
+									/>
+									<Route 
+										path="/projects/:*" 
+										element={<ProjectDetails />} 
+									/>
 									<Route
 										path="contact"
 										element={<Contact className="children" />}

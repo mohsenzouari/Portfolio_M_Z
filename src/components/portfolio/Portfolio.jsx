@@ -76,8 +76,8 @@ export default function Portfolio() {
   return (
   <div className='portfolio' id="portfolio">
     <Helmet>
-    <title>Portfolio - Mouna Tebourski</title>
-        <meta name="description" content="Page Porfolio de Mouna Tebourski"/>
+    <title>Portfolio - </title>
+        <meta name="description" content="Page Porfolio de Mohsen Zouari"/>
     </Helmet>
      <h1><FormattedMessage id="app.portfolio.title" /></h1>
      <ul>

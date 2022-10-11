@@ -25,10 +25,10 @@ export default function Projects() {
   return (
     <div className="projects" id="projects">
       <Helmet>
-        <title>Projects - Mouna Tebourski</title>
+        <title>Projects - </title>
         <meta name="description" content="Page des projets réalisé"/>
       </Helmet>
-       <h1><FormattedMessage id="app.projects.title" /></h1>
+       {/* <h1><FormattedMessage id="app.projects.title" /></h1> */}
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}

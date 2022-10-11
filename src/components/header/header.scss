@@ -19,7 +19,8 @@
         .left {
           display: flex;
           align-items: center;
-    
+          
+
           .logo {
             font-size: 40px;
             font-weight: 700;
@@ -40,9 +41,11 @@
             @include mobile{
               display: none;
             }
+
+  
              
             .icon {
-              font-size: 18px;
+              font-size: 20px;
               margin-right: 5px;
               
             }

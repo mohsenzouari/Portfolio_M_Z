@@ -22,11 +22,11 @@ export default function Menu(props) {
                 <FormattedMessage id="app.menu.about" />
                 </NavLink>
             </li>
-            <li onClick={toggleOpenMenu}>
+            {/* <li onClick={toggleOpenMenu}>
                 <NavLink to="portfolio">
                 <FormattedMessage id="app.menu.portfolio" />
                 </NavLink>
-            </li>
+            </li> */}
             <li onClick={toggleOpenMenu}>
                 <NavLink to="projects">
                 <FormattedMessage id="app.menu.projects" />

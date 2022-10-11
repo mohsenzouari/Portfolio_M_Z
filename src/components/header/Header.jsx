@@ -1,8 +1,10 @@
 import React from 'react';
 import "./header.scss";
-import {PhoneAndroid, MailOutline, LinkedIn} from "@material-ui/icons";
+import {PhoneAndroid, MailOutline, LinkedIn, Person, Mail, GitHub} from "@material-ui/icons";
 import Link from '@material-ui/core/Link';
 import Toggle from '../toggle/Toggle';
+import { Icon } from "@iconify/react";
+
 
 
 export default function Header(props) {
@@ -16,22 +18,25 @@ export default function Header(props) {
   <div className={"header " + (props.openMenu && "active")}>
       <div className="wrapper">
           <div className="left">
-              <a  href='/' className='logo'>Tebourski.M.</a>
+              <a  href='/' className='logo'>Zouari.M.</a>
               <div className="itemContainer">
                 <PhoneAndroid className="icon"/>
-                <span> +1 (613) 600 5705</span>
+                <span> (+216) 20 169 630</span>
               </div>
               <div className="itemContainer">
                 <MailOutline className="icon"/>
-                <span>mouna.tebourski.pro@gmail.com</span>
+                <span>mohsennzouari@gmail.com</span>
               </div>
               <div className="itemContainer">
-              <Link className="itemlink" href='https://www.linkedin.com/in/mouna-tebourski/' >
+              <Link className="itemlink" href='https://www.linkedin.com/in/mohsen-zouari' >
                 <LinkedIn className="icon"/>
-                <span>mouna-tebourski</span>
+                <span>mohsen-zouari</span>
               </Link>
               </div>
+              
           </div>
+
+
 
           <div className="right">
           <div className="itemContainer">

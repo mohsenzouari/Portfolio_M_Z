@@ -21,7 +21,7 @@
             align-items: center;
             justify-content: center;
             float: right;
-            margin-top: 15%;
+            margin-top: 4%;
 
             @include mobile{
               align-items: flex-start;
@@ -69,10 +69,17 @@
               }
               h2 {
                 font-size: 35px;
+                
                 @include mobile{
                   font-size: 30px;
                 }
               }
+              .ah2{
+                  font-size: 50px;
+                  @include mobile{
+                    font-size: 26px;
+                  }
+                }
               h3 {
                 font-size: 30px;
 
@@ -84,7 +91,7 @@
               
         span {
             font-size: inherit;
-            color: #fd4f51;
+            color: cadetblue; 
           }
   
           .ityped-cursor {

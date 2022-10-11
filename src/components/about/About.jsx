@@ -15,32 +15,35 @@ export default function About() {
       showCursor: true,
       backDelay: 1700,
       backSpeed:60,
-      strings: ["React JS","TypeScript","Asp.Net Core MVC"]
+      strings: ["Software Developer"]
     });
   }, []);
 
   return(
      <div className='about' id="about">
       <Helmet>
-        <title>A Propos - Mouna Tebourski</title>
-        <meta name="description" content="Page à propos pour en savoir plus sur le profil de Mouna Tebourski"/>
+        <title>A Propos - </title>
+        <meta name="description" content="Page à propos pour en savoir plus sur le profil de Mohsen Zouari"/>
       </Helmet>
         <div className="left">
           <div className="containerImage">
-            <img src="assets/mounaphoto.jpg" alt="me"/>
+            <img src="assets/my_pic.png" alt="me"/>
           </div>
         </div>
         <div className="right">
           <div className="wrapper">
-            <h2><FormattedMessage id="app.about.greeting" /></h2>
-            <h1>Mouna Tebourski</h1>
+            <h2><mark> <FormattedMessage id="app.about.greeting" /></mark></h2>
+            <br/>
+            <h2 className="ah2"> &nbsp;&nbsp;Mohsen Zouari</h2>
+            <br/>
+            <br/>
             <h3><FormattedMessage id="app.about.title" /> <span ref={textRef}></span></h3>
-            <div className="description">
+            {/* <div className="description">
             <FormattedMessage id="app.about.description" />
-            </div>      
+            </div>       */}
           </div>
             
-          <a href="/portfolio">
+          <a href="/projects">
             <img src="assets/down.png" alt="down"/>
           </a>
         </div> 
