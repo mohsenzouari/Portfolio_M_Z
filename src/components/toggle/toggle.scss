@@ -1,0 +1,17 @@
+@import "../../global.scss";
+
+.toggle{
+    width: 50px;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color:inherit;
+    color:inherit;
+    cursor: pointer;
+    margin-right: 20px;
+
+    @include mobile{
+        font-size: 15px;
+        margin-right: 0;
+      }
+}

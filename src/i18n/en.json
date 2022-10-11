@@ -1,0 +1,12 @@
+{
+    "app.menu.about": "About",
+    "app.menu.portfolio": "Portfolio",
+    "app.menu.projects": "Projects",
+    "app.menu.contact": "Contact",
+    "app.about.greeting":"Hi There, I'm",
+    "app.about.title":"Full Stack Developer ",
+    "app.about.description":"I am a full-stack React, TypeScript and Asp.net developer. I live in Ottawa, Canada. I love everything about the Web and Web Design. My ideal day consists of solving real problems, creating web pages from scratch, testing a new library, adding value, sharing my knowledge and learning something new. Check out my portfolio to see some of my projects.",
+    "app.portfolio.title": "Portfolio",
+    "app.projects.title": "Projects",
+    "app.contact.response": "Thanks for your message!"
+}
